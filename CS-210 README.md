@@ -1,0 +1,26 @@
+# SNHU-Project-Portfolio
+# CS-210 Project Three
+
+1. Summarize the project and what problem it was solving
+
+  This program was created to allow a user at Corner Grocer to do a few functions based on a .txt file read from input via fstream that Corner Grocer would generate for their daily sales.  The user was first prompted to enter the name of the file and, if valid, was able to read the file and create a map container with all of the items in the file as keys in the map and the number of times that the item occurred in the file as the value in the key-value pair in the map. After the map was created, a backup file would be created as well with the different key-value pairs in the map container.  Once the file was read and the map container was created, the user is then able to perform 4 total functions in the program.  The user is able to search for an item in the list and, if the item exists in the list, is returned with the number of times that that item was purchased during that day. The user is able to output the total number of sales for each item in the list in either a numerical format or in the form of a histogram where the user is able to choose what character they would like to use for the histogram.  Lastly, the user is able to press a key to quit the program when in the menu.
+
+2. What did you do particularly well?
+   
+     Something that I did particularly well was my utilization of a map in order to easily accomplish what I needed to do with generating the number of items sold.  I was racking my brain thinking of different ways to do it with my knowledge of C++ but I was stumped.  I was able to accomplish something very similar in Python using a dictionary so I researched what an equivalent would be in C++ and I was led to a map.  It took a bit to learn the proper syntax to create the map and generate the count for the different items in the list but once I had the hang of it, it worked extremely smoothly and I was able to easily manipulate the output to get it to output the item and quantity in whatever form I wanted.
+
+3.　Where could you enhance your code? How would these improvements make your code more efficient, secure, and so on?
+
+  One way that I feel like I could have enhanced my code is to make better use of try/catch statements to help mediate errors and exceptions a bit more in case the user accidentally typed in the wrong key.  This would allow for a better user experience where they could receive an error message but still allow them to attempt to progress through the program and not just error out and quit the program.  I could have also made better use of utilizing the class I made and create an object for each item in the list with a name and quantity as parameters as well.
+
+4. Which pieces of the code did you find most challenging to write, and how did you overcome this? What tools or resources are you adding to your support network?
+
+     I knew it was possible but the most challenging piece of code that I wrote for this program was the actual creation of the map that would have the items and their quantities stored. As mentioned earlier, maps were a completely new idea to me so it took a lot of trial and error to make sure everything had the proper quantities.  Outputting the different key-value pairs all at once, both as a number and a histogram, was also a tricky thing for me to code.  I knew what I wanted to accomplish with this so I did some research and was able to locate what I needed to do on various websites, mainly Reddit and StackOverflow, that was able to let me accomplish what I needed to. I am adding other programmers and my peers to my support network to allow me to bounce ideas of off or receive feedback about my code for future work and projects.
+
+5. What skills from this project will be particularly transferable to other projects or coursework?
+
+  The main skill that I feel is particularly transferable to other projects or coursework is my ability to compare what I am wanting to do or don't know with something I already know how to do or know, like my thoughts of a dictionary in Python to a map in C++.  This can allow me to somewhat quickly get an idea of what I am wanting to do and allows me to narrow my potential search for options as I know how something "should" work or act.
+
+6. How did you make this program maintainable, readable, and adaptable?
+
+   One way that I made my program readable and adaptable is by using a function for each individual task that the user may want to do, aside from quitting the program.  This can allow a future developer to go in and make a change to a function and that would change would come into affect any time that that function is called.  I also made good use of comments throughout the program to give a clear idea of what each bit of the code did and what the expected output could be.  A good feature that would allow the program to be used for different things is that I have the program assign a string from user input. The user would input the name of the file they are wanting to review and a map would be created from that specific file, if present.  I could have achieved success in my code by hardcoding the name of the file but this change would allow for a little bit more versatility and usability for the program in the future at Corner Grocer.
