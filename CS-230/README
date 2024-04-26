@@ -1,5 +1,3 @@
-##WORK IN PROGRESS##
-
 Who was the client? What type of software did they want you to design?
 
 The client was a company by the name of The Gaming Room.  They were in the market for a web-based game based on their hit Android game, Draw It or Lose It.  
@@ -28,5 +26,16 @@ chose but also try to use some of the information I have learned since then to t
 
 How did you interpret the user’s needs and implement them into your software design? Why is it so important to consider the user’s needs when designing?
 
+I took detailed notes and a bulleted list of what the user wanted in the software.  This helped me keep on track with creating the software.  I also ensured to make sure that I wasn't doing too much or adding to many
+belles and whistles into the software as this may not be what the user wants.
+Ensuring that one can truly understand the user's wants and needs is a critical part of being a software developer.  If you just make software for yourself or what you think the user wants instead of what the user actually wants, 
+it'll be difficult to make software that the user wants and is happy with the product that they resceive.  You do need to have the technical know-how to be able to interpret what they are wanting and how to make it work in your code
+but it is vital that you are developing software that the user needs and wants.
 
-How did you approach designing software? What techniques or strategies would you use in the future to analyze and design a similar software application?README
+
+How did you approach designing software? What techniques or strategies would you use in the future to analyze and design a similar software application?
+
+Based on what the user needed, I performed a vast amount of research to determine what design pattern would be the best for a certain portion of the application.  Not hard coding something specific
+into the application to achieve something was a technique that I strove to achieve throughout my work.  
+I always wanted to try and make the program "work" without having to hard code something into it because it would allow for freedom and a lot more options with a user base.
+
