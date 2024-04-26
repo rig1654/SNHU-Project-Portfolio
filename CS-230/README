@@ -8,11 +8,22 @@ he client wanted to be able to bring their game to multiple different platforms 
 
 What did you do particularly well in developing this documentation?
 
+I did well on describing the different parts of the UML Diagram.  My explanations would allow someone to have an understanding of how
+the application works even without having access to the program or the UML Diagram.
+
 
 What about the process of working through a design document did you find helpful when developing the code?
+When I was developing the code while working through a design document, I found it easier to help keep track of the client's requirements
+for the software which helped me ensure that I was creating software that the client was wanting.  Having the requirements neatly listed and kept up to date helped me remain focused on what I was working on
+which helped me stay on track and pace for getting the project finished.
 
 
 If you could choose one part of your work on these documents to revise, what would you pick? How would you improve it?
+
+One section that I would revise or at least revise the way I approached it is the section about "Design Constraints".  When working on that section,
+I only ended up thinking of a couple of things that could be considered a design constraint for the software and didn't really perform a lot of the out of the box
+thinking about what different thinks could be a design constraint.  If I were to go back into it now, I would still consider the constraints that I already
+chose but also try to use some of the information I have learned since then to try and think of some more design constraints.
 
 
 How did you interpret the user’s needs and implement them into your software design? Why is it so important to consider the user’s needs when designing?
