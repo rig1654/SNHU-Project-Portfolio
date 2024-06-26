@@ -1,1 +1,22 @@
+Briefly summarize the DriverPass project. Who was the client? What type of system did they want you to design?
 
+     The DriverPass project involved creating an online platform for driving eduacation and testing.  The client for this project was a company called DriverPass that wanted a comprehensive system to help users prepare for their driving tests.  The system needed to include interactive study materials, practice tests, scheduling tools for driving lessons, and features for tracking user progress.  The goal was to make learning to drive more accessible and efficient through a user-friendly digital interface.
+
+What did you do particularly well?
+
+     I feel that there were a few different things that I did particularly well.  I feel that my Use Case Diagrams provided a comprehensive view of the different use cases within the system and how the different actors would interact with those use cases.  I feel that I was very thorough in my determining of different use cases that the system would have and included many different use cases.  I also feel that my UML Activity Diagram was also very thourough and included most, if not all, of the different required screens that the system would need to have for that specific use case.
+
+
+If you could choose one part of your work on these documents to revise, what would you pick? How would you improve it?
+
+     Although I feel like I was very detailed in my Use Case Diagram, that would probably be the part of my work that I would revise.  The biggest issue that I had with it is that I may not have shown all of the different use cases that each other use case may have had a relationship with.  I also feel that my diagram was also kind of difficult to read due to the sheer amount of use cases I included. 
+
+
+How did you interpret the user’s needs and implement them into your system design? Why is it so important to consider the user’s needs when designing?
+
+  The key to my implementation of the user's needs was carefully reading and reviewing the transcript of the interview with the client.  That document provided insight on what the customer wanted and how they wanted the system to function.  I took thorough notes of the transcript and what the client wanted so I did not have to constantly keep pulling it it back up when I was trying to determine a requirement for the system.  Considering the user's needs when designing is crucial becaust it ensures that the product is intuitive, effective, and enjoyable to use which can lead to higher user satisfaction.  It increases the likelihood of adoption and continued use. Ultimately, a user-centric design helps achieve the project's goals and contributes to the product's overall success.
+
+
+How do you approach designing software? What techniques or strategies would you use in the future to analyze and design a system?
+
+     My approach to designing software starts with the gathering and documenting of the requirements for the software to ensure that I meet all of the user's needs.  Next, I would conduct user research about the target audience to again ensure I am meeting all of their needs. Once that is done, the development of the software takes place along with any testing and quality assurance before, eventually, the software is completed and deployed to the user base.  In the future when I analyze and design a system, I would try to make more use of tools like Lucidchart to create Gantt charts and UML diagrams to help me plan out my project but also help me get an idea of how a specific function or the system as a whole should work.
