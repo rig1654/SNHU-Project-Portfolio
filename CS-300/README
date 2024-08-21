@@ -1,13 +1,12 @@
-WIP
-
-
-
 What was the problem you were solving in the projects for this course?
 
 The problem that I was solving in the projects was to make a recommendation of a data structure to use to store course data from a CSV file for Computer Science Department at ABCU and then implement that data structure into code that the department could use for their students and their course schedules.  I first create pseudocode for displaying a menu that would allow the user to perform various operations on the data structure depending on their input.  I then analyzed the performance and runtime of the pseudocode that I created and made a recommendation on what data structure would best suit their needs.  Based on that recommendation, I then created a program that would perform the tasks that ABCU wanted using the data strucure I recommended.
 
 
 How did you approach the problem? Consider why data structures are important to understand.
+
+First, I studied and reviewed the pros and cons of the different data structures to determine what would be best for ABCU and be able to meet their needs.  While some structures may be better than others for accomplishing certain tasks, I felt that a Hash table
+or a BST would be the best options to accomplish what ABCU was wanting.  A BST was what I ended up going with when coding the project.
 
 
 How did you overcome any roadblocks you encountered while going through the activities or project?
@@ -16,6 +15,10 @@ My two main roadblocks that I came across were related to the analysis of the da
 
 
 How has your work on this project expanded your approach to designing software and developing programs?
+
+My work on this project has expanded my approach to designing software and developing programs in a few ways.  
+One way is that I am more focused on the user experience when they use the program/software and what it looks like when they are using it.  For so long, I would just focus on getting a program to work and do what it was supposed to do and that was it.
+Now, however, I am more focuses on what the user expereinces when using it.  Because of this, I made changes that would make the output of the program a little bit more appealing compared to how I have done it in the past.
 
 
 How has your work on this project evolved the way you write programs that are maintainable, readable, and adaptable?
