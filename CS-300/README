@@ -18,3 +18,5 @@ How has your work on this project expanded your approach to designing software a
 
 How has your work on this project evolved the way you write programs that are maintainable, readable, and adaptable?
 
+Throughout the course and even my time here at SNHU, my biggest area of improvment has been creating programs that are modular instead of trying to lump all tasks needed into a small amount of functions.  My pseudocode and even my actual code would have a small amount of functions but each function would be extremely large and would be a bit of a pain to have to maintain and change.  One change that I made between the beginning of the course and the end was to make my functions more modular and have more functions that perform very specific tasks.  By doing this, even though it forced me to have more functions in my code, it made my program easier to read, easier to maintain, and easier to adapt to any new changes that I needed to implement.
+
