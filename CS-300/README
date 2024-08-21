@@ -12,6 +12,8 @@ How did you approach the problem? Consider why data structures are important to 
 
 How did you overcome any roadblocks you encountered while going through the activities or project?
 
+My two main roadblocks that I came across were related to the analysis of the data structures for Project One and the implementation of a hash table for the code.  For some reason, the analysis of the runtime of the different functions didn't seem to click right away so I had to watch a few videos to help me get a better understanding of what the ask was.  Upon reviewing my pseudocode for the implementation of a BST and a Hash Table, I found that I included a lot of unneccesary steps in the BST to where that made it a lot less efficient than a Hash table would be so I pivoted Project Two to be working with a BST compared to a hashtable as I had a significantly easier time using that data structure.
+
 
 How has your work on this project expanded your approach to designing software and developing programs?
 
