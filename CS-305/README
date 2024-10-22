@@ -1,23 +1,29 @@
-#WIP
-
-
-
 Briefly summarize your client, Artemis Financial, and its software requirements. Who was the client? What issue did the company want you to address?
+
+The client, Artemis Financial, is a consulting company that develops individualized financial plans for its customers that can include savings, retirement, investments, and insurance.  They had a RESTful web application which they wanted to have security updates implemented in order to protect against vulnerabilities.  I was tasked in upgrading their applications security to ensure that their data was secure.  As they were a consulting company who deals with customer financial data, it was vital that secure coding practices and tools were used in order to ensure that data was secure both in transit and at rest.
 
 
 What did you do well when you found your client’s software security vulnerabilities? Why is it important to code securely? What value does software security add to a company’s overall well-being?
 
+Prior to working with the client, I had some expereince with developing secure applications and the need to have updated dependencies but was unsure on what security vulnerabilities there could be in any given application.  By utilizing dependency checks, which I became a lot more familiar with, I got better and better at determining what items in the reports were legitmate threats that would need to be addressed or false positives that I could suppress as to make it easier for one to read the dependency check report. Secure coding is essential to protect sensitive data, mitigate risks, and maintain customer trust. By investing in software security, companies can avoid costly breaches, enhance their reputation, ensure compliance with regulations, and gain a competitive edge in the market.
 
 Which part of the vulnerability assessment was challenging or helpful to you?
+
+The biggest issue I had with the vulnerability assessment was determinine what vulnerabilities were indeed vulnerabilities that needed to be addressed because, depending on the program, there would be dozens or hundreds of potential vulnerabilities and, at the start, I felt a bit overwhelmed.
 
 
 How did you increase layers of security? In the future, what would you use to assess vulnerabilities and decide which mitigation techniques to use?
 
+The layers of ssecurity were increased through the use of cryptography, secure API interactions, secure error handling, and through the following of secure coding best practices and patterns.
+
 
 How did you make certain the code and software application were functional and secure? After refactoring the code, how did you check to see whether you introduced new vulnerabilities?
+The application was verified to be function and secure through reviewing the code and testing the application to ensure that it worked as expected.  In order to make sure that no new vulnerabilities were introduced, an intial dependency check woudl have been ran before any work was performed on the code to get a base level of vulnerabilities in the report.  After the code was refactored and functional, another scan would be run to ensure that no additional vulnerabiltiies were introduced.
 
 
 What resources, tools, or coding practices did you use that might be helpful in future assignments or tasks?
-
+Secure coding practices will always be benefical for any future assignments or tasks.  Running dependency check reports will also be extremely useful as I will probably be using dependencies in the future.
 
 Employers sometimes ask for examples of work that you have successfully completed to show your skills, knowledge, and experience. What might you show future employers from this assignment?
+
+From these assignments, I hope that future employers would see that I have the ability to code an application that is secure and is able to communicate with a RESTful API in a secure manner.
