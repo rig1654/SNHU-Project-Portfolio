@@ -1,1 +1,10 @@
+WIP
 
+How can I ensure that my code, program, or software is functional and secure?
+  
+To ensure that whatever project I am working on is functional, one key step is to perform testing on various aspects of the project.  For this course's work, I primarily implemented unit testing to ensure that each individual component worked as expected and hit the requirements set for each specific service.  To ensure that a project would be secure, I would follow best practices like input validation, using proper authentication methods, as well as encrypting sensitive data.  If I was using any third party dependencies or libraries, I would also make sure that those are updated when needed to ensure that no vulnerabilities are left in the system.
+
+How do I interpret user needs and incorporate them into a program?
+
+
+How do I approach designing software?
