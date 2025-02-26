@@ -1,15 +1,3 @@
-WIP
+My overall approach for designing and developing software has evolved over the course of this class.  My first goal for anything I am developing is to make sure that I am able to perform, at least, part of the task that I am designing and developing the software for.  This would allow me to make sure that I am on the right track with my software and I can then continue to develop and enhance my software knowing I have a strong foundation.  A big focus of my work this term was making my software more manageable and easier to read and understand.  I was able to accomplish this by making my code more modular and implementing more comments throughout the code.  By creating a different function for each individual object I was rendering and for each task that I needed to accomplish, it would make updating the software (fixing something that breaks or making changes) significantly easier because I would just have to go to the specific function that I needed to update and just make the change in that function.  By utilizing comments throughout the code, I was able to easily determine at just a glance what something did or what specific values would achieve in some of the different functions for creating the material textures or the light sources.
 
-How do I approach designing software?
-  What new design skills has your work on the project helped you to craft?
-  What design process did you follow for your project work?
-  How could tactics from your design approach be applied in future work?
-
-How do I approach developing programs?
-  What new development strategies did you use while working on your 3D scene?
-  How did iteration factor into your development?
-  How has your approach to developing code evolved throughout the milestones, which led you to the project’s completion?
-
-How can computer science help me in reaching my goals?
-  How do computational graphics and visualizations give you new knowledge and skills that can be applied in your future educational pathway?
-  How do computational graphics and visualizations give you new knowledge and skills that can be applied in your future professional pathway?
+In education, computational graphics strengthens math and logic skills due to the utilization of linear algebra for 3D transformation or physics for realistic lighting.  Professionally, these skills can apply to game design, architecture visualization, and even UI/UZ development.  Optimizing real-time lighting in a 3D-rendered house model can prepare me for a potential career in simulation development or digital design.
