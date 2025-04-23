@@ -1,5 +1,13 @@
-WIP
-
 How do you write programs that are maintainable, readable, and adaptable? Especially consider your work on the CRUD Python module from Project One, which you used to connect the dashboard widgets to the database in Project Two. What were the advantages of working in this way? How else could you use this CRUD Python module in the future?
+
+To write maintainable, readable, and adaptable programs, I focus on modularity, clear structure, and separating concerns.  In my CRUD python module from Project One, I kept all database operations within a single, reusable class, which made it easy to connect to the dashboard without needing to reqrite code.  This approach improved organization, simplified debugging, and will help to make future updates more manageable.  The module can be easily edited and reused for use in other projects.
+
+
 How do you approach a problem as a computer scientist? Consider how you approached the database or dashboard requirements that Grazioso Salvare requested. How did your approach to this project differ from previous assignments in other courses? What techniques or strategies would you use in the future to create databases to meet other client requests?
+
+As a computer scientist, I approach problems by breaking them down into smaller parts, under standing the requirements, and designing efficient, user-focused solutations.  For what Grazioso Salvare requested, my approach differed slightly compared to other assignments.  In other assignments, I mainly focused on making sure that everything worked as expected and met the requirements asked of me.  In this project, though, I still did that but I also focused more on the user experience, adding features that I would think a user who would be using the dashboard would want.  I also made changes to some of the sample code that was provided in order to make the graph and map a bit more user-friendly but also more appealing to the eye if, for example, no filters or entries were selected.
+
+
 What do computer scientists do, and why does it matter? How would your work on this type of project help a company, like Grazioso Salvare, to do their work better?
+
+Computer scientists design and build technological solutions to solve real-world problems, making processes more efficient, accurate, and accessible. This work matters because it supports innovation and helps organizations make better decisions using data.  In the case of Grazioso Salvare, my work on the database and dashboard helped streamline how they manage rescue animal information.  This would allow them to deploy resources more efficiently and make informed decisions quickly.
