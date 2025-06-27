@@ -1,7 +1,20 @@
-WORK IN PROGRESS
 
 Briefly explain the work that you did on this project: What code were you given? What code did you create yourself?
+
+For this project, I was provided with the foundational code, including the environment setup using OpenAI Gym, the definition of the neural network model, and utility functions to support the training process. My main contribution was writing the qtrain function, which is the core of the Q-learning process.
+
+In this function, I implemented the training loop that allows the agent to interact with the environment, choose actions, store experiences in a replay memory, and learn from those experiences by updating the Q-values using the neural network. I also included logic for managing exploration versus exploitation using an epsilon-greedy strategy and handled the decay of the exploration rate over time. Overall, my work focused on enabling the agent to learn effectively from its environment and improve its decision-making performance through reinforcement learning.
+
 Connect your learning from throughout this course to the larger field of computer science:
 What do computer scientists do and why does it matter?
+
+Throughout CS-370, I learned how artificial intelligence and reinforcement learning can be applied to solve complex problems in dynamic environments. This project helped me see how computer scientists design, implement, and fine-tune intelligent systems—something that has real-world applications in robotics, gaming, logistics, and more. The skills I practiced, like building neural networks, managing training data, and refining algorithms, are all part of what computer scientists do: create solutions that are both logical and adaptable.
+
+
 How do I approach a problem as a computer scientist?
+
+Approaching a problem like a computer scientist means breaking it down into smaller, solvable parts, using both creativity and critical thinking. In this project, I had to understand the goal (train an agent to find a treasure), decide how the agent should learn (Q-learning), and implement the logic in a way that could scale and improve over time. It’s not just about writing code—it’s about designing systems that work reliably and make intelligent decisions.
+
 What are my ethical responsibilities to the end user and the organization?
+
+Ethically, I’ve learned that I have a responsibility to both the end user and the organization. That means ensuring the software behaves as expected, is fair and unbiased, and respects user privacy. In AI projects especially, it’s important to consider how the system might impact real people—whether it's making decisions, reinforcing stereotypes, or unintentionally causing harm. As a future professional, I know it's my job to think beyond functionality and prioritize ethical, responsible design.
