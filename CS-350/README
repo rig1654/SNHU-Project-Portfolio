@@ -1,1 +1,18 @@
 
+Project Summary
+This project focused on building a working thermostat system using a Raspberry Pi, LEDs, buttons, and a 16x2 LCD display. The thermostat has three modes—off, heat, and cool—and the LEDs show which mode it’s in. The LCD shows the current time and temperature, and it switches between showing temperature info and the current state of the system. The thermostat also sends updates to a temperature server through a serial connection every 30 seconds. The main goal was to design a small embedded system that can manage temperature changes and give real-time feedback to the user through both lights and a display.
+
+What I Did Well
+I think I did a good job with the state machine part of the project. It was really satisfying to see the transitions between off, heat, and cool work smoothly, and to have the LEDs and display respond correctly each time. I’m also happy with how clean and organized the code ended up being. Breaking things into classes, like the ManagedDisplay for the LCD and the TemperatureMachine for the main logic, made everything easier to follow and debug.
+
+Where I Could Improve
+If I were to keep working on this, I’d spend more time improving how the display and serial communication are handled. Right now, everything runs fine, but it could be optimized to be a bit more efficient. I’d also like to add better error handling for sensor readings and connection issues so the system would be more reliable outside of a test environment.
+
+Tools and Resources Added to My Support Network
+This project helped me get more comfortable with several new tools and libraries, especially gpiozero, adafruit_character_lcd, and adafruit_ahtx0. I also got more practice using GitHub for version control and documentation. Between these and the Raspberry Pi and Adafruit documentation, I’ve built a solid set of resources I can rely on for future projects.
+
+Transferable Skills
+The biggest skills I’ll take away from this project are writing structured, maintainable code and building systems that connect hardware and software together. Learning how to use state machines effectively will definitely help with any project that needs organized logic or control systems. I also got more experience debugging and thinking through how different components communicate, which is useful for just about any area of computer science.
+
+Maintaining Readability and Adaptability
+I made sure to keep the code readable and easy to update by writing clear comments and sticking to consistent naming and formatting. Each class has its own purpose, so it’s easy to go back and make changes later. For example, it wouldn’t be hard to add new thermostat modes or display features without rewriting major parts of the program. That kind of flexibility is something I tried to keep in mind while coding.
