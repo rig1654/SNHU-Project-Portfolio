@@ -1,1 +1,20 @@
+CS 470: Full Stack Development II — Cloud Development
 
+This repository contains my final reflection for CS 470, completed as part of my B.S. in Computer Science (Software Engineering concentration) at Southern New Hampshire University.
+
+Contents
+CS-470_Final_Reflection.pdf — Final course reflection covering my experiences and strengths as a developer, and a plan for future growth of the project using cloud service concepts (elasticity, pay-for-use, microservices vs. serverless tradeoffs).
+Project Summary
+
+Over the course of CS 470, I migrated a full stack MEAN application (Angular, Node/LoopBack, MongoDB) into a fully serverless architecture on AWS:
+
+Frontend: Migrated from a traditional server to Amazon S3 static website hosting
+Backend: Replaced the Express API with six AWS Lambda functions, connected through Amazon API Gateway
+Database: Migrated from MongoDB to Amazon DynamoDB
+Security: Configured IAM roles/policies and manual CORS across all API resources
+
+A walkthrough of this migration is presented in my Project Two conference presentation, linked in the reflection PDF above.
+
+Note on AWS Code
+
+Per course guidelines, AWS-specific code and configuration (Lambda functions, API Gateway setup, IAM policies) are not included in this repository, since they reference account-specific resource IDs and would pose a security risk if published. This repository contains only the final reflection artifact, as directed by the assignment.
